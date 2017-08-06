@@ -85,8 +85,12 @@ str = "The quick brown fox jumps over the lazy dog"
 
 import string 
 
-count = 0
-def ispangram(str):
+def ispangram(str1, alphabet = string.ascii_lowercase):
+  alphaset = set(alphabet)
+  return alphaset <= set(str1.lower())
+
+
+'''
   global count
   y = str.lower()
   trn = [word[0] for word in y.split()]
@@ -104,7 +108,7 @@ def ispangram(str):
       return False
 
 print "The value of the count: %d" %(count)   
-
+'''
  
 '''
   for x in y:
