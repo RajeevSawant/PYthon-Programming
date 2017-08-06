@@ -1,0 +1,21 @@
+x = range(0, 10)
+
+print "The value of x", x
+print "The type of x", type(x)
+
+y = range(0, 15, 3)
+
+print "The value of y", y
+
+
+
+for num in range(10):
+  print "The Number is ", num
+
+
+# if u want to have a range of number say till 1000, u can use generator that are provided at that instance but does not store every instance generated
+#  into memory. 
+
+
+#Python 2 has build in range generator and that is called xrange()
+ 
